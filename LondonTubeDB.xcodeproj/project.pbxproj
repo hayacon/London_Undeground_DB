@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		CC0113C3245D5A4300EB6E50 /* LondonTubeDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LondonTubeDB; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0113C6245D5A4300EB6E50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC0113CD245D5B0800EB6E50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LondonTubeDB/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			children = (
 				CC0113C5245D5A4300EB6E50 /* LondonTubeDB */,
 				CC0113C4245D5A4300EB6E50 /* Products */,
+				CC0113CD245D5B0800EB6E50 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
