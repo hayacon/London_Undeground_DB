@@ -28,4 +28,3 @@ private:
     static StationInfo stringsToStations(std::vector<std::string> strings);
 };
 
-

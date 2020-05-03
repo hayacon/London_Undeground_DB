@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CC0113C7245D5A4300EB6E50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC0113C6245D5A4300EB6E50 /* main.cpp */; };
+		CC1997EB245F229E00DDFE3A /* LondonTube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1997E9245F229E00DDFE3A /* LondonTube.cpp */; };
+		CC1997EE245F22CC00DDFE3A /* ReadCSV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1997EC245F22CC00DDFE3A /* ReadCSV.cpp */; };
+		CC1997F1245F22F300DDFE3A /* StationInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1997EF245F22F300DDFE3A /* StationInfo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,12 @@
 		CC0113C3245D5A4300EB6E50 /* LondonTubeDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LondonTubeDB; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0113C6245D5A4300EB6E50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CC0113CD245D5B0800EB6E50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LondonTubeDB/README.md; sourceTree = "<group>"; };
+		CC1997E9245F229E00DDFE3A /* LondonTube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LondonTube.cpp; sourceTree = "<group>"; };
+		CC1997EA245F229E00DDFE3A /* LondonTube.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LondonTube.hpp; sourceTree = "<group>"; };
+		CC1997EC245F22CC00DDFE3A /* ReadCSV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadCSV.cpp; sourceTree = "<group>"; };
+		CC1997ED245F22CC00DDFE3A /* ReadCSV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadCSV.hpp; sourceTree = "<group>"; };
+		CC1997EF245F22F300DDFE3A /* StationInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StationInfo.cpp; sourceTree = "<group>"; };
+		CC1997F0245F22F300DDFE3A /* StationInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StationInfo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				CC0113C6245D5A4300EB6E50 /* main.cpp */,
+				CC1997E9245F229E00DDFE3A /* LondonTube.cpp */,
+				CC1997EA245F229E00DDFE3A /* LondonTube.hpp */,
+				CC1997EC245F22CC00DDFE3A /* ReadCSV.cpp */,
+				CC1997ED245F22CC00DDFE3A /* ReadCSV.hpp */,
+				CC1997EF245F22F300DDFE3A /* StationInfo.cpp */,
+				CC1997F0245F22F300DDFE3A /* StationInfo.hpp */,
 			);
 			path = LondonTubeDB;
 			sourceTree = "<group>";
@@ -122,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0113C7245D5A4300EB6E50 /* main.cpp in Sources */,
+				CC1997EB245F229E00DDFE3A /* LondonTube.cpp in Sources */,
+				CC1997F1245F22F300DDFE3A /* StationInfo.cpp in Sources */,
+				CC1997EE245F22CC00DDFE3A /* ReadCSV.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

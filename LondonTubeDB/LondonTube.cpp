@@ -7,19 +7,3 @@
 //
 
 #include "LondonTube.hpp"
-#include "ReadCSV.hpp"
-
-LondonTube::LondonTube()
-{
-
-}
-
-void LondonTube::init()
-{
-    loadDataBook();
-}
-
-void LondonTube::loadDataBook()
-{
-    stations = ReadCSV::readCSV("stations.csv");
-}

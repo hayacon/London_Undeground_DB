@@ -18,7 +18,6 @@
 class StationInfo
 {
 public:
-
             StationInfo(int _id,
                        std::string _stationname,
                        int _zone,
