@@ -34,12 +34,19 @@ void LondonTube::zoneSearch()
         nameInput[i] = std::tolower(nameInput[i]);
     }
     std::cout<<"User input "<< nameInput << std::endl;
-    for(StationInfo& s : stations)
+    for(int i = 0; i < stations.size(); ++i)
     {
-        if(nameInput == s.stationname)
+        if(nameInput == stations[i].stationname)
         {
-            std::cout<< nameInput << " is in ZONE " << s.zone << std::endl;
+            std::cout<< nameInput << " is in ZONE " << stations[i].zone << std::endl;
         }
+
+        if(i == stations.size())
+        {
+            std::cout<< "Station doesn't exsit"<<std::endl;
+        }
+
+
     }
 }
 
