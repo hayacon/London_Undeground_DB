@@ -7,3 +7,16 @@
 //
 
 #include "StationInfo.hpp"
+
+
+StationInfo::StationInfo(int _id,
+                         std::string _stationname,
+                         int _zone,
+                         int _totalline)
+:id(_id),
+stationname(_stationname),
+zone(_zone),
+totalline(_totalline)
+{
+
+}
