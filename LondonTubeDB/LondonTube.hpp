@@ -25,6 +25,8 @@ class LondonTube
 
         private:
             void loadDataBook();
+            void zoneSearch();
+
             std::vector<StationInfo> stations;
 
 };
